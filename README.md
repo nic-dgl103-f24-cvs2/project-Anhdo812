@@ -141,7 +141,8 @@ Code each one of chosen content blocks for mobile:
 
 **2. Colours:**
 
-- Three main colours: Light blue (#d0e7ec), dark blue (#0a558e), brick orange (#e05a2a)
+- Three main colours: Light blue (#EFF6F6), dark blue (#0B4A79), brick orange (#e05a2a)
+- Use contrast checker: https://webaim.org/resources/contrastchecker/
 
 **3. Images:**
 
