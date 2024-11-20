@@ -13,12 +13,12 @@ Website chosen: https://ascentphysiotherapy.com/index.html
 **1. Fresh Tracks Physiotherapy**
 
 - https://www.freshtracksphysio.ca/
-  ![alt text](freshtracksphysio.png)
+  ![alt text](freshtracksphysio.jpg)
 
 **2. Kids Physiotherapy**
 
 - https://www.kidsphysio.ca/locations/comox-valley/
-  ![alt text](kidsphysio.png)
+  ![alt text](kidsphysio.jpg)
 
 ## Instructions
 
