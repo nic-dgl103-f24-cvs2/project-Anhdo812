@@ -106,3 +106,35 @@ h1 {
   .google-map iframe {
     width: 100%;
   }
+
+    /*-------- MEDIUM DEVICES (tablet, 768px and up) ---------*/
+    @media only screen and (min-width: 768px) {
+
+        /*---No display for hamburger icon in desktop view-----*/
+      .toggle {
+        display: none;
+      }
+    
+      a {
+        display: inline-block;
+      }
+    
+      .desktop-nav {
+        display: block;
+        background-color: #eff7f7;
+        color: black;
+      }
+    
+      .desktop-nav ul {
+        display: flex;
+      }
+    
+      .desktop-nav a {
+        color: black;
+    }
+    }
+    
+      /*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+    @media only screen and (min-width: 1200px) {
+    
+    }
