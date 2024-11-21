@@ -17,6 +17,9 @@
     line-height: 1.3;
   }
   
+  video, img {
+    width: 100%;
+  }
 
 
   /*-------- TYPOGRAPHY ---------*/
@@ -41,11 +44,65 @@ h1 {
   h3 {
     font-weight: bold;
   }
+
+  /*-------- HEADER ---------*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFF6F6;
+  }
   
-  a {
+  header img {
+    object-fit: contain;
+    width: 200px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    padding: 8px 0;
+  }
+  
+  nav ul li a {
+    color:#0B4A79;
     text-decoration: none;
+    font-weight: 500;
+  }
+  
+
+
+  /*-------- MEDIUM DEVICES (mobile, 375px and up) ---------*/
+  .mobile-nav {
+    display: none;
+    text-transform: uppercase;
+    background-color: #0B4A79;
+    top: 60px;
+    text-align: center;
+  }
+  
+  .mobile-nav a {
+    color:  #EFF6F6;
   }
 
-  li {
-    list-style: none;
+  .mobile-nav ul {
+    padding: 0;
+  }
+
+
+  /* -----Hamburger icon menu----- */
+  .show-items {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    position: absolute;
+    width: 100%;
+    top: 85px;
+  }
+
+  /* Google map */
+  .google-map iframe {
+    width: 100%;
   }
