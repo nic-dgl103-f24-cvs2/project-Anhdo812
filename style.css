@@ -168,6 +168,10 @@ footer a {
     display: none;
   }
 
+  main {
+    font-size: 19px;
+  }
+
   a {
     display: inline-block;
   }
@@ -195,6 +199,30 @@ footer a {
 
   .desktop-nav a {
     color: #0b4a79;
+  }
+
+  .homepage-content img {
+    margin: 0;
+  }
+
+  .why-choose-us-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .why-choose-us-section img {
+    width: 50%;
+  }
+
+  .our-mission {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row-reverse;
+  }
+  .our-mission img {
+    width: 50%;
   }
 }
 
