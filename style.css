@@ -20,6 +20,7 @@
   
   video, img {
     width: 100%;
+    margin-top: 10px;
   }
 
 
@@ -37,7 +38,6 @@ h1 {
   h2 {
     color: #e05a2a;
     text-transform: uppercase;
-    line-height: 1.2rem;
   }
 
   h3 {
@@ -99,6 +99,32 @@ h1 {
     margin: 20px;
   }
 
+  .call-to-action {
+    background-color: #0B4A79;
+    padding: 22px;
+    color: white;
+    margin: 35px 0;
+  }
+
+  .call-to-action a {
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #e05a2a;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 26px 0;
+    padding: 15px 25px;
+  }
+
+  footer img {
+    width: 200px;
+    margin: 0;
+  }
+
+
+
 
   /* -----Hamburger icon menu----- */
   .show-items {
@@ -107,7 +133,7 @@ h1 {
     text-align: justify;
     position: absolute;
     width: 100%;
-    top: 42px;
+    top: 60px;
   }
 
   /* Google map */
