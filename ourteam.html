@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our team | Ascent Physiotherapy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700;800&family=Geist:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/ascentlogo.png"
+        width="200"
+        alt="ascent physiotherapy logo"
+      />
+      <a class="toggle" onclick="showNav()"
+        ><i class="fa fa-bars" aria-hidden="true"></i
+      ></a>
+      <nav id="nav-items" class="mobile-nav desktop-nav">
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="ourteam.html">Our team</a></li>
+          <li><a href="ourservices.html">Our services</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
+  </body>
+</html>
