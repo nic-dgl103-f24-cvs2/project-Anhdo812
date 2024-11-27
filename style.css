@@ -15,7 +15,7 @@ body {
   font-style: normal;
   color: #0b4a79;
   text-align: center;
-  background-color: #eff6f6;
+  background-color: #ffffff;
 }
 
 video,
@@ -53,7 +53,7 @@ h3 {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #eff6f6;
+  background-color: #ffffff;
 }
 
 header img {
@@ -86,7 +86,7 @@ nav ul li a {
 }
 
 .mobile-nav a {
-  color: #eff6f6;
+  color: #ffffff;
 }
 
 .mobile-nav ul {
@@ -221,7 +221,7 @@ footer a {
 
   .desktop-nav {
     display: block;
-    background-color: #eff7f7;
+    background-color: #ffffff;
     color: black;
   }
 
