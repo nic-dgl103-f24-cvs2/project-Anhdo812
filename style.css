@@ -94,6 +94,10 @@ nav ul li a {
 }
 
 /* ---- HOMEPAGE CONTENT ONLY ---- */
+iframe {
+  width: 100%;
+}
+
 .homepage-content {
   margin: 20px;
 }
