@@ -18,7 +18,7 @@ body {
   background-color: #ffffff;
 }
 
-video,
+iframe,
 img {
   width: 100%;
   margin-top: 10px;
@@ -306,6 +306,15 @@ footer a {
   .google-map iframe {
     width: 365px;
     height: 365px;
+  }
+
+  .our-team-hero-section {
+    background-position: bottom;
+  }
+
+  .our-team-hero-section h1 {
+    font-size: 66px;
+    padding: 200px 0;
   }
 }
 
