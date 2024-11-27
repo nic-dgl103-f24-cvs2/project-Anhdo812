@@ -141,7 +141,7 @@ Code each one of chosen content blocks for mobile:
 
 **2. Colours:**
 
-- Three main colours: Light blue (#EFF6F6), dark blue (#0B4A79), brick orange (#e05a2a)
+- Three main colours: White (#ffffff), dark blue (#0B4A79), brick orange (#e05a2a)
 - Use contrast checker: https://webaim.org/resources/contrastchecker/
 
 **3. Images:**
@@ -151,7 +151,7 @@ Code each one of chosen content blocks for mobile:
 
 **4. Page layout:**
 
-- Incorporate using flexbox, grid, table, float & clear properties, overflow, box-sizing, position property
+- Incorporate using flexbox, table, float & clear properties, overflow, box-sizing, position property
 - Box model properties: padding, margin, border, background, border-radius, box-shadow, width
 
 ### 5. Format, organize and add comments
