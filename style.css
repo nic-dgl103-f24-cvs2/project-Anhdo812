@@ -93,6 +93,7 @@ nav ul li a {
   padding: 0;
 }
 
+/* ---- HOMEPAGE CONTENT ONLY ---- */
 .homepage-content {
   margin: 20px;
 }
@@ -177,6 +178,22 @@ footer a {
   color: grey;
   border-top: 1px solid grey;
   padding: 15px;
+}
+/* ------------------------END HOMEPAGE CONTENT ---------------------------------- */
+
+/* ------------------------ OUR TEAM CONTENT ---------------------------------- */
+.our-team-hero-section {
+  background-image: url(images/ourteam-hero.jpg);
+  margin: 13px 0;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.our-team-hero-section h1 {
+  color: white;
+  font-size: 28px;
+  padding: 60px;
 }
 
 /* -----Hamburger icon menu----- */
@@ -275,13 +292,7 @@ footer a {
   }
 
   .call-to-action {
-    background-image: url(images/booknow.png);
-    padding: 22px 180px;
-    color: #ffffff;
-    margin: 35px 0;
-    background-position: center;
     background-size: 100%;
-    background-repeat: no-repeat;
     font-size: 2rem;
   }
 
