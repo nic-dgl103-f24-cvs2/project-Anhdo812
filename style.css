@@ -355,6 +355,10 @@ footer a {
     padding: 200px 0;
   }
 
+  .staff-section {
+    margin: 70px 0;
+  }
+
   .staff-therapists {
     justify-content: space-around;
     margin: 20px;
