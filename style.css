@@ -206,6 +206,17 @@ footer a {
   padding: 60px;
 }
 
+.staff-therapists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.staff-therapists article {
+  width: 300px;
+}
+
 /* -----Hamburger icon menu----- */
 .show-items {
   display: flex;
@@ -325,6 +336,15 @@ footer a {
   .our-team-hero-section h1 {
     font-size: 66px;
     padding: 200px 0;
+  }
+
+  .staff-therapists {
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .staff-therapists article {
+    width: 32%;
   }
 }
 
