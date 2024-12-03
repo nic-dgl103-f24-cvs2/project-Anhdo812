@@ -217,6 +217,23 @@ footer a {
   width: 300px;
 }
 
+.staff-coordinators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.coordinators-section {
+  background-color: #0b4a79;
+  padding: 30px;
+}
+
+.staff-coordinators article {
+  width: 300px;
+}
+
 /* -----Hamburger icon menu----- */
 .show-items {
   display: flex;
@@ -339,12 +356,17 @@ footer a {
   }
 
   .staff-therapists {
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px;
   }
 
   .staff-therapists article {
     width: 32%;
+  }
+
+  .staff-coordinators {
+    justify-content: space-around;
+    margin: 20px;
   }
 }
 
