@@ -233,6 +233,50 @@ footer a {
 .staff-coordinators article {
   width: 300px;
 }
+/* -------------------END OUR TEAM CONTENT ------------------ */
+
+/* ------------------- START OUR SERVICES CONTENT ---------------------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+th {
+  background-color: #3a70ab;
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+}
+
+td {
+  padding: 12px 15px;
+  border: 1px solid #e2e2e2;
+  text-align: left;
+}
+
+/* Styling for the table rows with background colors */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Styling for the table cell borders */
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+.products-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.products-content article {
+  width: 300px;
+}
 
 /* -----Hamburger icon menu----- */
 .show-items {
@@ -371,6 +415,10 @@ footer a {
   .staff-coordinators {
     justify-content: space-around;
     margin: 20px;
+  }
+
+  .products-content article {
+    width: 32%;
   }
 }
 
