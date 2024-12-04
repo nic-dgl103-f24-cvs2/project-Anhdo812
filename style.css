@@ -206,6 +206,11 @@ footer a {
   padding: 60px;
 }
 
+.heading-two {
+  font-size: 4rem;
+  margin: 22px 0;
+}
+
 .staff-therapists {
   display: flex;
   flex-wrap: wrap;
@@ -222,12 +227,6 @@ footer a {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  color: #ffffff;
-}
-
-.coordinators-section {
-  background-color: #0b4a79;
-  padding: 30px;
 }
 
 .staff-coordinators article {
@@ -425,6 +424,10 @@ td {
     padding: 200px 0;
   }
 
+  .heading-two {
+    font-size: 8rem;
+  }
+
   .staff-section {
     margin: 70px 0;
   }
@@ -449,7 +452,7 @@ td {
   }
 
   .products-content article {
-    width: 32%;
+    width: 26%;
     padding-top: 30px;
   }
 }
