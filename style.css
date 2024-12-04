@@ -282,6 +282,28 @@ td {
   width: 300px;
 }
 
+.products-section h2 {
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.products-content article {
+  width: 56%;
+  padding-top: 45px;
+}
+
+/*--- Price tag ----- */
+.button {
+  font-size: 2rem;
+  background-color: #e05a2a;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+  padding: 9px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
 /* -----Hamburger icon menu----- */
 .show-items {
   display: flex;
@@ -424,11 +446,6 @@ td {
   /*---------- Our Services Page -------------*/
   .fees-table h2 {
     font-size: 6rem;
-  }
-
-  .products-section h2 {
-    font-size: 6rem;
-    margin-bottom: 0;
   }
 
   .products-content article {
