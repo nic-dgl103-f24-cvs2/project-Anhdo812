@@ -267,6 +267,10 @@ td {
   border: 1px solid #ddd;
 }
 
+.fees-table h2 {
+  font-size: 4rem;
+}
+
 .products-content {
   display: flex;
   flex-wrap: wrap;
@@ -389,7 +393,7 @@ td {
     width: 365px;
     height: 365px;
   }
-
+  /*---------- Our Team Page ------*/
   .our-team-hero-section {
     background-position: bottom;
   }
@@ -417,8 +421,19 @@ td {
     margin: 20px;
   }
 
+  /*---------- Our Services Page -------------*/
+  .fees-table h2 {
+    font-size: 6rem;
+  }
+
+  .products-section h2 {
+    font-size: 6rem;
+    margin-bottom: 0;
+  }
+
   .products-content article {
     width: 32%;
+    padding-top: 30px;
   }
 }
 
