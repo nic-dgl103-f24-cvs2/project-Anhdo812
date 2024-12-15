@@ -1,0 +1,462 @@
+/*-------- OVERALL STYLES ---------*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 0;
+  font-family: "Geist", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #0b4a79;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+iframe,
+img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/*-------- TYPOGRAPHY ---------*/
+
+h1 {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  color: #e05a2a;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+h2 {
+  color: #e05a2a;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+}
+
+/*-------- HEADER ---------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+header img {
+  object-fit: contain;
+  width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  padding: 8px 0;
+}
+
+nav ul li a {
+  color: #0b4a79;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*-------- MEDIUM DEVICES (mobile, 375px and up) ---------*/
+.mobile-nav {
+  display: none;
+  text-transform: uppercase;
+  background-color: #0b4a79;
+  top: 60px;
+  text-align: center;
+}
+
+.mobile-nav a {
+  color: #ffffff;
+}
+
+.mobile-nav ul {
+  padding: 0;
+}
+
+/* ---- HOMEPAGE CONTENT ONLY ---- */
+iframe {
+  width: 100%;
+}
+
+.homepage-content {
+  margin: 20px;
+}
+
+.homepage-content a {
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #e05a2a;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 26px 0;
+  padding: 15px 25px;
+}
+
+.facilities {
+  margin: 20px;
+}
+
+.facilities-section h2 {
+  font-size: 8rem;
+  margin: 75px 0 0 0;
+}
+
+.facilities-content {
+  width: 100%;
+}
+
+.call-to-action {
+  background-image: url(images/booknow.png);
+  padding: 22px;
+  color: #ffffff;
+  margin: 35px 0;
+  background-position: center;
+  background-size: 155%;
+  background-repeat: no-repeat;
+}
+
+.call-to-action h2 {
+  color: white;
+}
+
+/* Book now button */
+.call-to-action a {
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #e05a2a;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 26px 0;
+  padding: 15px 25px;
+}
+
+footer img {
+  width: 200px;
+  margin: 0;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0b4a79;
+}
+
+.footer-logo {
+  margin: 40px;
+}
+
+.footer-logo p {
+  color: #191717;
+}
+
+.note {
+  font-size: 11px;
+  font-style: italic;
+  color: grey;
+  border-top: 1px solid grey;
+  padding: 15px;
+}
+/* ------------------------END HOMEPAGE CONTENT ---------------------------------- */
+
+/* ------------------------ OUR TEAM CONTENT ---------------------------------- */
+.our-team-hero-section {
+  background-image: url(images/ourteam-hero.jpg);
+  margin: 13px 0;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.our-team-hero-section h1 {
+  color: white;
+  font-size: 28px;
+  padding: 60px;
+}
+
+.heading-two {
+  font-size: 4rem;
+  margin: 22px 0;
+}
+
+.staff-therapists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.staff-therapists article {
+  width: 300px;
+}
+
+.staff-coordinators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.staff-coordinators article {
+  width: 300px;
+}
+/* -------------------END OUR TEAM CONTENT ------------------ */
+
+/* ------------------- START OUR SERVICES CONTENT ---------------------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+th {
+  background-color: #3a70ab;
+  color: white;
+  text-align: left;
+  padding: 12px 15px;
+}
+
+td {
+  padding: 12px 15px;
+  border: 1px solid #e2e2e2;
+  text-align: left;
+}
+
+/* Styling for the table rows with background colors */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Styling for the table cell borders */
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+.fees-table h2 {
+  font-size: 4rem;
+}
+
+.products-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.products-content article {
+  width: 300px;
+}
+
+.products-section h2 {
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.products-content article {
+  width: 56%;
+  padding-top: 45px;
+}
+
+/*--- Price tag ----- */
+.button {
+  font-size: 2rem;
+  background-color: #e05a2a;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+  padding: 9px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+/* -----Hamburger icon menu----- */
+.show-items {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  position: absolute;
+  width: 100%;
+  top: 60px;
+}
+
+/* Google map */
+.google-map iframe {
+  width: 100%;
+}
+
+/*-------- MEDIUM DEVICES (tablet, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  /*---No display for hamburger icon in desktop view-----*/
+  .toggle {
+    display: none;
+  }
+
+  main {
+    font-size: 16px;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  header {
+    margin: 0 35px;
+    align-items: center;
+    font-size: 1.8rem;
+  }
+
+  header img {
+    width: 200px;
+  }
+
+  .desktop-nav {
+    display: block;
+    background-color: #ffffff;
+    color: black;
+  }
+
+  .desktop-nav ul {
+    display: flex;
+    gap: 8rem;
+  }
+
+  .desktop-nav a {
+    color: #0b4a79;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .homepage-content img {
+    margin: 0;
+  }
+
+  .why-choose-us-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 20px;
+  }
+
+  .why-choose-us-section img {
+    width: 50%;
+  }
+
+  .our-mission {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row-reverse;
+    margin: 0 20px;
+  }
+
+  .our-mission img {
+    width: 50%;
+  }
+
+  .facilities {
+    gap: 20px;
+    display: flex;
+  }
+
+  .call-to-action {
+    background-size: 100%;
+    font-size: 2rem;
+  }
+
+  .footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 32px;
+  }
+
+  .google-map iframe {
+    width: 365px;
+    height: 365px;
+  }
+  /*---------- Our Team Page ------*/
+  .our-team-hero-section {
+    background-position: bottom;
+  }
+
+  .our-team-hero-section h1 {
+    font-size: 66px;
+    padding: 200px 0;
+  }
+
+  .heading-two {
+    font-size: 8rem;
+  }
+
+  .staff-section {
+    margin: 70px 0;
+  }
+
+  .staff-therapists {
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .staff-therapists article {
+    width: 32%;
+  }
+
+  .staff-coordinators {
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  /*---------- Our Services Page -------------*/
+  .fees-table h2 {
+    font-size: 6rem;
+  }
+
+  .products-content article {
+    width: 26%;
+    padding-top: 30px;
+  }
+}
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+}
